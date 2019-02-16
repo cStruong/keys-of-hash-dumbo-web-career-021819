@@ -5,7 +5,7 @@ class Hash
     finalArr = []
     
     self.each{|element, value|
-      binding.pry
+      
     }
     
     return finalArr
