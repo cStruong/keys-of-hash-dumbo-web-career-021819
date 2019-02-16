@@ -1,5 +1,13 @@
+require 'pry'
+
 class Hash
-  def keys_of(arguments)
-    # code goes here
+  def keys_of(*arguments)
+    finalArr = []
+    
+    animals.each{|element, value|
+      binding.pry
+    }
+    
+    return finalArr
   end
 end
