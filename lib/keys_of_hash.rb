@@ -4,7 +4,7 @@ class Hash
   def keys_of(*arguments)
     finalArr = []
     
-    animals.each{|element, value|
+    hash.each{|element, value|
       binding.pry
     }
     
