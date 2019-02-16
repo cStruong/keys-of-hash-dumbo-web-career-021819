@@ -4,7 +4,7 @@ class Hash
   def keys_of(*arguments)
     finalArr = []
     
-    hash.each{|element, value|
+    self.each{|element, value|
       binding.pry
     }
     
